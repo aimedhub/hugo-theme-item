@@ -7,10 +7,6 @@
   icon: fab-google
   url: https://www.google.com/search?q=%s
 
-- name: baidu
-  icon: fab-wikipedia-w
-  url: https://www.baidu.com/s?wd=%s
-
 
 - name: Bing
   icon: fab-microsoft
@@ -40,3 +36,8 @@
 - name: Github
   icon: fab-github
   url: https://github.com/search?q=%s
+
+
+- name: baidu
+  icon: fab-wikipedia-w
+  url: https://www.baidu.com/s?wd=%s
