@@ -7,11 +7,34 @@
   icon: fab-google
   url: https://www.google.com/search?q=%s
 
-- name: Wikipedia
+- name: baidu
   icon: fab-wikipedia-w
-  url: https://www.wikipedia.org/w/index.php?search=%s
+  url: https://www.baidu.com/s?wd=%s
 
 - name: Github
   icon: fab-github
   url: https://github.com/search?q=%s
-  
+
+- name: Bing
+  icon: fab-microsoft
+  url: https://www.bing.com/search?q=%s
+
+- name: Yahoo
+  icon: fab-yahoo
+  url: https://search.yahoo.com/search?p=%s
+
+- name: DuckDuckGo
+  icon: fab-duckduckgo
+  url: https://duckduckgo.com/?q=%s
+
+- name: Yandex
+  icon: fab-yandex
+  url: https://yandex.com/search/?text=%s
+
+- name: Ask
+  icon: fab-ask
+  url: https://www.ask.com/web?q=%s
+
+- name: Ecosia
+  icon: fab-ecosia
+  url: https://www.ecosia.org/search?q=%s
