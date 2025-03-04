@@ -25,32 +25,47 @@
   url: https://www.uptodate.com/
   background: "linear-gradient(120deg, #ffde00, #ff6347)"
 
-- name: Medscape
-  icon: fas-stethoscope
-  url: https://www.medscape.com/
-  background: "linear-gradient(120deg, #ff7f7f, #ff4040)"
-
-- name: ClinicalKey
-  icon: fas-user-md
-  url: https://www.clinicalkey.com/
+- name: NCCN Guidelines
+  icon: fas-book-medical
+  url: https://www.nccn.org/
   background: "linear-gradient(120deg, #ffebcd, #ff6347)"
-
-- name: PubChem
-  icon: fas-flask
-  url: https://pubchem.ncbi.nlm.nih.gov/
-  background: "linear-gradient(120deg, #fff0f5, #d8bfd8)"
 
 - name: Cochrane Library
   icon: fas-book-open
   url: https://www.cochranelibrary.com/
   background: "linear-gradient(120deg, #e0ffff, #add8e6)"
 
-- name: MedLinePlus
-  icon: fas-clinic-medical
-  url: https://medlineplus.gov/
+- name: Sci-Hub
+  icon: fas-book
+  url: https://www.sci-hub.pub/
+  background: "linear-gradient(120deg, #f5f5f5, #d3d3d3)"
+
+- name: ChatGPT
+  icon: fas-robot
+  url: https://gpt.zgn.app/
+  background: "linear-gradient(120deg, #e6ffe6, #b3ffb3)"
+
+- name: DeepSeek
+  icon: fas-search-dollar
+  url: https://ai.baidu.us.com/
+  background: "linear-gradient(120deg, #f0f8ff, #4682b4)"
+
+- name: Google Gemini
+  icon: fas-cogs
+  url: https://ai.baidu.us.com/
+  background: "linear-gradient(120deg, #e0ffff, #b0e0e6)"
+
+- name: XAI Grok
+  icon: fas-brain
+  url: https://ai.baidu.us.com/
+  background: "linear-gradient(120deg, #fff8dc, #f4a460)"
+
+- name: Clinical Trials Registration
+  icon: fas-clipboard-list
+  url: https://clinicaltrials.gov/
   background: "linear-gradient(120deg, #ffe4e1, #ffb6c1)"
 
-- name: BMJ
-  icon: fas-newspaper
-  url: https://www.bmj.com/
-  background: "linear-gradient(120deg, #ffde00, #ffcc00)"
+- name: Turnitin (SCI Plagiarism Check)
+  icon: fas-file-alt
+  url: https://www.turnitin-service.com/similarity
+  background: "linear-gradient(120deg, #fff0f5, #d8bfd8)"
