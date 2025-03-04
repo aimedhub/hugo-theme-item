@@ -6,7 +6,7 @@
 ---
 
 - name: PubMed
-  icon: fas-search
+  icon: fas-book-open
   url: https://pubmed.ncbi.nlm.nih.gov/
   background: "linear-gradient(120deg, #f0f8ff, #4682b4)"
 
@@ -46,12 +46,12 @@
   background: "linear-gradient(120deg, #e6ffe6, #b3ffb3)"
 
 - name: DeepSeek
-  icon: fas-search-dollar
+  icon: fas-robot
   url: https://ai.baidu.us.com/
   background: "linear-gradient(120deg, #f0f8ff, #4682b4)"
 
 - name: Google Gemini
-  icon: fas-cogs
+  icon: fas-robot
   url: https://ai.baidu.us.com/
   background: "linear-gradient(120deg, #e0ffff, #b0e0e6)"
 
