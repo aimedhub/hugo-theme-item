@@ -11,9 +11,6 @@
   icon: fab-wikipedia-w
   url: https://www.baidu.com/s?wd=%s
 
-- name: Github
-  icon: fab-github
-  url: https://github.com/search?q=%s
 
 - name: Bing
   icon: fab-microsoft
@@ -38,3 +35,8 @@
 - name: Ecosia
   icon: fab-ecosia
   url: https://www.ecosia.org/search?q=%s
+
+  
+- name: Github
+  icon: fab-github
+  url: https://github.com/search?q=%s
