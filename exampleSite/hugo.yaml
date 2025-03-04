@@ -1,7 +1,7 @@
 theme: "hugo-theme-item"
 languageCode: "zh-CN"
 baseurl: "https://item-hugo.fordes.dev/"
-title: "ITEM-hugo"
+title: "百度美国导航"
 
 author: "baidu.us.com"
 copyright: "Copyright ©2025, baidu.us.com, all rights reserved."
@@ -47,7 +47,7 @@ params:
     - name: 
 
     # 纯文本
-    - name: Just some text
+    - name: 
 
   # 首页配置项
   home:
