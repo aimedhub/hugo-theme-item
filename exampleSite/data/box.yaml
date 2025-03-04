@@ -5,27 +5,52 @@
 # background: 背景色，支持css颜色值，如 #fff, #000, red 等
 ---
 
-- name: Github
-  icon: fab-github
-  url: https://www.github.com
-  background: "linear-gradient(120deg, #a3f7ec, #4fdcca)"
+- name: PubMed
+  icon: fas-search
+  url: https://pubmed.ncbi.nlm.nih.gov/
+  background: "linear-gradient(120deg, #f0f8ff, #4682b4)"
 
-- name: Vercel
-  icon: lucide-server
-  url: https://vercel.com
-  background: "linear-gradient(45deg, #b5b4ff, #7675f9)"
+- name: Google Scholar
+  icon: fas-graduation-cap
+  url: https://scholar.google.com/
+  background: "linear-gradient(45deg, #f1f1f1, #ffd700)"
 
-- name: Hugo
-  icon: lucide-flask-conical
-  url: https://hugo.gohugo.io
-  background: "linear-gradient(120deg, #ffd495, #ffa31b)"
+- name: MedCalc
+  icon: fas-calculator
+  url: https://www.medcalc.org/
+  background: "linear-gradient(120deg, #e6ffe6, #b3ffb3)"
 
-- name: TailwindCSS
-  icon: fas-infinity
-  url: https://tailwindcss.com
-  background: "linear-gradient(120deg, #663d74, #dcc7e1)"
+- name: UpToDate
+  icon: fas-file-medical
+  url: https://www.uptodate.com/
+  background: "linear-gradient(120deg, #ffde00, #ff6347)"
 
-- name: DaisyUI
-  icon: <svg viewBox="0 0 415 415" xmlns="http://www.w3.org/2000/svg"><rect x="82.5" y="290" width="250" height="125" rx="62.5" fill="#1AD1A5"></rect><circle cx="207.5" cy="135" r="130" fill="black" fill-opacity=".3"></circle><circle cx="207.5" cy="135" r="125" fill="white"></circle><circle cx="207.5" cy="135" r="56" fill="#FF9903"></circle></svg>
-  url: https://daisyui.com
-  background: "linear-gradient(45deg, #e6ffe6, #b3ffb3)"
+- name: Medscape
+  icon: fas-stethoscope
+  url: https://www.medscape.com/
+  background: "linear-gradient(120deg, #ff7f7f, #ff4040)"
+
+- name: ClinicalKey
+  icon: fas-user-md
+  url: https://www.clinicalkey.com/
+  background: "linear-gradient(120deg, #ffebcd, #ff6347)"
+
+- name: PubChem
+  icon: fas-flask
+  url: https://pubchem.ncbi.nlm.nih.gov/
+  background: "linear-gradient(120deg, #fff0f5, #d8bfd8)"
+
+- name: Cochrane Library
+  icon: fas-book-open
+  url: https://www.cochranelibrary.com/
+  background: "linear-gradient(120deg, #e0ffff, #add8e6)"
+
+- name: MedLinePlus
+  icon: fas-clinic-medical
+  url: https://medlineplus.gov/
+  background: "linear-gradient(120deg, #ffe4e1, #ffb6c1)"
+
+- name: BMJ
+  icon: fas-newspaper
+  url: https://www.bmj.com/
+  background: "linear-gradient(120deg, #ffde00, #ffcc00)"
