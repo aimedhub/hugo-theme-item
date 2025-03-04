@@ -4,10 +4,10 @@ licenselink: "https://baidu.us.com"
 description: "baidu.us.com"
 homepage:  "https://github.com/aimedhub/hugo-theme-item"
 tags:
-  - "Hugo"
-  - "Tailwind CSS"
-  - "theme"
-  - "navigation"
+  - "baidu"
+  - "US"
+  - ".com"
+  - "导航"
 min_version: "0.124.0"
 
 author:
