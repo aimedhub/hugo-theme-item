@@ -1,4 +1,4 @@
-module github.com/fordes123/hugo-theme-item
+module github.com/aimedhub/hugo-theme-item
 
 go 1.20
 
