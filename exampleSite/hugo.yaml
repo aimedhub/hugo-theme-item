@@ -31,7 +31,7 @@ params:
   sidebar:
     - name: 关于本站
       icon: lucide-book
-      url: "/about"
+      url: "https://www.baidu.us.com/"
 
     - name: Github
       icon: lucide-github
