@@ -1,10 +1,10 @@
 {
     "name": "hugo-theme-item",
     "version": "1.1.1",
-    "description": "Hugo theme for website navigation using TailwindCSS and daisyUI.",
+    "description": "百度美国🇺🇸",
     "main": "index.js",
-    "repository": "https://github.com/fordes123/hugo-theme-item",
-    "author": "fordes123 <github@fordes123.dev>",
+    "repository": "https://github.com/aimedhub/hugo-theme-item",
+    "author": "aimedhub <github@aimedhub>",
     "license": "GPL-3.0",
     "browserslist": [
         "last 1 version",
