@@ -6,59 +6,262 @@
 
 # ! 在文章中，categories 字段需要使用分类唯一标识
 ---
-Stream:
-  icon: lucide-clapperboard
-  display: 
+MedicalLiterature:
+  icon: lucide-book
+  display: 医学文献数据库
   background: "linear-gradient(45deg, #e6eeff, #b3c6ff)"
+  links:
+    - 名称: PubMed
+      url: https://pubmed.ncbi.nlm.nih.gov/
+    - 名称: Google Scholar
+      url: https://scholar.google.com/
+    - 名称: ClinicalTrials.gov
+      url: https://clinicaltrials.gov/
+    - 名称: Scopus
+      url: https://www.scopus.com/
+    - 名称: Web of Science
+      url: https://www.webofscience.com/
+    - 名称: Cochrane Library
+      url: https://www.cochranelibrary.com/
+    - 名称: PubMed Central
+      url: https://www.ncbi.nlm.nih.gov/pmc/
+    - 名称: Embase
+      url: https://www.embase.com/
+    - 名称: SpringerLink
+      url: https://link.springer.com/
+    - 名称: Wiley Online Library
+      url: https://www.wiley.com/
 
-Short:
-  icon: lucide-zap
-  display: 
+ClinicalGuidelines:
+  icon: lucide-book-open
+  display: 临床指南与共识
+  background: "linear-gradient(45deg, #f0f8ff, #a1c6ea)"
+  links:
+    - 名称: UpToDate
+      url: https://www.uptodate.com/
+    - 名称: National Guideline Clearinghouse
+      url: https://www.ahrq.gov/gam/ngc/index.html
+    - 名称: NICE (National Institute for Health and Care Excellence)
+      url: https://www.nice.org.uk/
+    - 名称: BMJ Best Practice
+      url: https://bestpractice.bmj.com/
+    - 名称: American College of Physicians (ACP) Guidelines
+      url: https://www.acponline.org/
+    - 名称: Medscape
+      url: https://www.medscape.com/
+    - 名称: AAFP (American Academy of Family Physicians) Guidelines
+      url: https://www.aafp.org/
+    - 名称: Endocrine Society Guidelines
+      url: https://www.endocrine.org/
+    - 名称: Infectious Diseases Society of America (IDSA) Guidelines
+      url: https://www.idsociety.org/
+    - 名称: American Heart Association (AHA) Guidelines
+      url: https://www.heart.org/
 
-Live:
-  icon: lucide-webcam
-  display: 
+MedicalEducation:
+  icon: lucide-chalkboard
+  display: 医学教育与培训
+  background: "linear-gradient(45deg, #eaf7f7, #b3e0e0)"
+  links:
+    - 名称: MedEdPORTAL
+      url: https://www.mededportal.org/
+    - 名称: Coursera
+      url: https://www.coursera.org/
+    - 名称: edX
+      url: https://www.edx.org/
+    - 名称: Khan Academy
+      url: https://www.khanacademy.org/
+    - 名称: Harvard Medical School Online Learning
+      url: https://onlinelearning.harvard.edu/
+    - 名称: Stanford Online
+      url: https://online.stanford.edu/
+    - 名称: AMA (American Medical Association) Education
+      url: https://www.ama-assn.org/
+    - 名称: BMJ Learning
+      url: https://learning.bmj.com/
+    - 名称: Johns Hopkins Online Learning
+      url: https://www.jhu.edu/
+    - 名称: MedCram
+      url: https://www.medcram.com/
 
-Music:
-  icon: lucide-audio-lines
-  display: 
+MedicalCalculators:
+  icon: lucide-calculator
+  display: 医学计算与工具
+  background: "linear-gradient(45deg, #fff0f1, #f0a1c6)"
+  links:
+    - 名称: MedCalc
+      url: https://www.medcalc.org/
+    - 名称: QxMD
+      url: https://www.qxmd.com/
+    - 名称: MDCalc
+      url: https://www.mdcalc.com/
+    - 名称: Calculate by QxMD
+      url: https://www.qxmd.com/calculate
+    - 名称: eMedicine
+      url: https://emedicine.medscape.com/
+    - 名称: OncoKB
+      url: https://www.oncokb.org/
+    - 名称: VisualDx
+      url: https://www.visualdx.com/
+    - 名称: UpToDate Calculators
+      url: https://www.uptodate.com/calculators
+    - 名称: Medical Calculator
+      url: https://www.medicalcalculators.com/
+    - 名称: CardioSmart
+      url: https://www.cardiosmart.org/
 
-Podcast:
-  icon: lucide-podcast
-  display: 
+MedicalKnowledge:
+  icon: lucide-clipboard
+  display: 医学专业知识获取
+  background: "linear-gradient(45deg, #f1f8e9, #c8e6c9)"
+  links:
+    - 名称: Medscape
+      url: https://www.medscape.com/
+    - 名称: Mayo Clinic
+      url: https://www.mayoclinic.org/
+    - 名称: American Medical Association (AMA)
+      url: https://www.ama-assn.org/
+    - 名称: PubMed
+      url: https://pubmed.ncbi.nlm.nih.gov/
+    - 名称: WebMD
+      url: https://www.webmd.com/
+    - 名称: MedlinePlus
+      url: https://medlineplus.gov/
+    - 名称: UpToDate
+      url: https://www.uptodate.com/
+    - 名称: American Heart Association (AHA)
+      url: https://www.heart.org/
+    - 名称: The Lancet
+      url: https://www.thelancet.com/
+    - 名称: British Medical Journal (BMJ)
+      url: https://www.bmj.com/
 
-Radio:
-  icon: lucide-cassette-tape
-  display: 
+GlobalHealth:
+  icon: lucide-globe
+  display: 全球健康组织与政府网站
+  background: "linear-gradient(45deg, #e8f5e9, #c8e6c9)"
+  links:
+    - 名称: World Health Organization (WHO)
+      url: https://www.who.int/
+    - 名称: Centers for Disease Control and Prevention (CDC)
+      url: https://www.cdc.gov/
+    - 名称: National Institutes of Health (NIH)
+      url: https://www.nih.gov/
+    - 名称: World Bank Health
+      url: https://www.worldbank.org/en/topic/health
+    - 名称: United Nations Health
+      url: https://www.un.org/en/health/
+    - 名称: European Medicines Agency (EMA)
+      url: https://www.ema.europa.eu/en
+    - 名称: Health Canada
+      url: https://www.canada.ca/en/health-canada.html
+    - 名称: Pan American Health Organization (PAHO)
+      url: https://www.paho.org/en/
+    - 名称: UNICEF Health
+      url: https://www.unicef.org/health/
+    - 名称: Global Health Data Exchange (GHDx)
+      url: http://ghdx.healthdata.org/
 
-OnlineGame:
-  icon: fas-hand-back-fist
-  display: Online
+MedicalImaging:
+  icon: lucide-image
+  display: 医学影像资源
+  background: "linear-gradient(45deg, #fafafa, #f1f1f1)"
+  links:
+    - 名称: Radiopaedia
+      url: https://radiopaedia.org/
+    - 名称: American College of Radiology (ACR)
+      url: https://www.acr.org/
+    - 名称: PubMed Central (PMC)
+      url: https://www.ncbi.nlm.nih.gov/pmc/
+    - 名称: Imaging Community
+      url: https://www.imagingcommunity.com/
+    - 名称: Radiology Society of North America (RSNA)
+      url: https://www.rsna.org/
+    - 名称: The British Journal of Radiology
+      url: https://www.bir.org.uk/
+    - 名称: MedPix
+      url: https://medpix.nlm.nih.gov/
+    - 名称: European Society of Radiology (ESR)
+      url: https://www.myesr.org/
+    - 名称: The American Journal of Roentgenology (AJR)
+      url: https://www.ajronline.org/
+    - 名称: Imaging Healthcare Specialists
+      url: https://www.ihsmed.com/
 
-GameCommunity:
-  icon: fas-chess-rook
-  display: Community
+BiomedicalInnovation:
+  icon: lucide-cogs
+  display: 生物医学研究与技术创新
+  background: "linear-gradient(45deg, #f1f8e9, #c8e6c9)"
+  links:
+    - 名称: Nature Biotechnology
+      url: https://www.nature.com/nbt/
+    - 名称: ScienceDirect
+      url: https://www.sciencedirect.com/
+    - 名称: Bioinformatics.org
+      url: https://www.bioinformatics.org/
+    - 名称: Cell Press
+      url: https://www.cell.com/
+    - 名称: PLOS ONE
+      url: https://journals.plos.org/plosone/
+    - 名称: The Rockefeller University Press
+      url: https://www.rockefeller.edu/
+    - 名称: Stanford Bio-X
+      url: https://biox.stanford.edu/
+    - 名称: MIT Technology Review
+      url: https://www.technologyreview.com/
+    - 名称: JAMA Network
+      url: https://jamanetwork.com/
+    - 名称: BioRxiv
+      url: https://www.biorxiv.org/
 
-WindowsSoftware:
-  icon: fab-windows
-  display: Windows
+ClinicalTrials:
+  icon: lucide-heartbeat
+  display: 临床试验与研究
+  background: "linear-gradient(45deg, #e6eeff, #b3c6ff)"
+  links:
+    - 名称: ClinicalTrials.gov
+      url: https://clinicaltrials.gov/
+    - 名称: The Lancet
+      url: https://www.thelancet.com/
+    - 名称: Cochrane Library
+      url: https://www.cochranelibrary.com/
+    - 名称: PubMed
+      url: https://pubmed.ncbi.nlm.nih.gov/
+    - 名称: JAMA Network
+      url: https://jamanetwork.com/
+    - 名称: New England Journal of Medicine (NEJM)
+      url: https://www.nejm.org/
+    - 名称: ClinicalTrialsRegister.eu
+      url: https://www.clinicaltrialsregister.eu/
+    - 名称: Cancer Research UK
+      url: https://www.cancerresearchuk.org/
+    - 名称: NIH Clinical Trials
+      url: https://www.nih.gov/health-information/nih-clinical-research-trials-you
+    - 名称: The BMJ
+      url: https://www.bmj.com/
 
-MacSoftware:
-  icon: lucide-apple
-  display: Mac
-
-AndroidSoftware:
-  icon: fas-mobile
-  display: Android
-
-Frontend:
+ResearchTools:
   icon: lucide-code
-  display: 
-
-Backend:
-  icon: lucide-server
-  display: 
-
-DevOps:
-  icon: lucide-terminal
-  display: 
+  display: 科研工具与平台
+  background: "linear-gradient(45deg, #fff0f1, #f0a1c6)"
+  links:
+    - 名称: GitHub
+      url: https://github.com/
+    - 名称: RStudio
+      url: https://rstudio.com/
+    - 名称: DataDryad
+      url: https://datadryad.org/
+    - 名称: Figshare
+      url: https://figshare.com/
+    - 名称: Open Science Framework (OSF)
+      url: https://osf.io/
+    - 名称: LabArchives
+      url: https://www.labarchives.com/
+    - 名称: ResearchGate
+      url: https://www.researchgate.net/
+    - 名称: Mendeley
+      url: https://www.mendeley.com/
+    - 名称: Zotero
+      url: https://www.zotero.org/
+    - 名称: Sci-Hub
+      url: https://sci-hub.se/
